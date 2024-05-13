@@ -3,6 +3,19 @@ function plus1(number) {
   return result;
 }
 
+// const number = 20;
+// const result = plus1(number);
+// console.log(result);
+
+//引数のない関数の定義
+function showMessage() {
+  const message = 'text';
+  alert(message);
+}
+
 const number = 20;
 const result = plus1(number);
 console.log(result);
+
+showMessage;
+showMessage();
