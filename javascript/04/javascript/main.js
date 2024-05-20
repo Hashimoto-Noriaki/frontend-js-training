@@ -19,3 +19,17 @@ console.log(result);
 
 showMessage;
 showMessage();
+
+
+function threetimes(fn) {
+  //3回関数をする処理
+  fn(); //引数の処理を実行
+  fn();
+  fn();
+}
+
+const callfunction = function () {
+  console.log('コールバック関数');
+};
+
+threetimes(callfunction);
