@@ -51,7 +51,6 @@ execute({
   email: 'sample@example.com',
   number: '1234',
 });
-
 // nori
-// main.js:45 sample@example.com
-// main.js:46 1234
+// sample@example.com
+// 1234
