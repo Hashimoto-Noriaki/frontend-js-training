@@ -7,5 +7,3 @@ if (number > 10) {
 } else {
     console.log('10未満');
 }
-
-console.log(number);
