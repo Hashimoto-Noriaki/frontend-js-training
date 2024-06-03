@@ -60,7 +60,7 @@ function execute(arg = 'にゃんこ') {
   return arg;
 }
 
-関数
+//関数
 const result1 = execute();
 console.log(result1);
 
@@ -70,7 +70,7 @@ console.log(result2);
 //にゃんこ
 //わんこ
 
-キーワード引数
+//キーワード引数
 function execute({ arg1, arg2 }) {
   return { arg1, arg2 };
 }
