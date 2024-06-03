@@ -54,3 +54,47 @@ execute({
 // nori
 // sample@example.com
 // 1234
+
+//デフォルト引数
+function execute(arg = 'にゃんこ') {
+  return arg;
+}
+
+//関数
+const result1 = execute();
+console.log(result1);
+
+const result2 = execute('わんこ');
+console.log(result2);
+
+//にゃんこ
+//わんこ
+
+//キーワード引数
+function execute({ arg1, arg2 }) {
+  return { arg1, arg2 };
+}
+
+const result = execute({
+  arg1: '矢',
+  arg2: '増',
+});
+console.log(result);
+
+{arg1: '矢', arg2: '増'}
+arg1:"矢"
+arg2:"増"
+
+//可変長引数
+function execute({ ...args }) {
+  console.log(args.name);
+  console.log(args.email);
+}
+
+execute({
+  name: 'pochi',
+  email: 'pochi@example.com',
+});
+
+//pochi
+//pochi@example.com
