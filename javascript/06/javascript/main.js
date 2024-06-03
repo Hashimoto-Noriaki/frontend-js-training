@@ -67,8 +67,8 @@ console.log(result1);
 const result2 = execute('わんこ');
 console.log(result2);
 
-にゃんこ
-わんこ
+//にゃんこ
+//わんこ
 
 キーワード引数
 function execute({ arg1, arg2 }) {
