@@ -13,22 +13,22 @@ function executeWithKeywords({ arg1, arg2, arg3 }) {
 }
 
 // キーワード引数を持つ関数の実行
-const result = executeWithKeywords({ arg1: 'test1', arg2: 'test2', arg3: 'test3' });
-console.log(result); // { arg1: 'test1', arg2: 'test2', arg3: 'test3' }
+// const result = executeWithKeywords({ arg1: 'test1', arg2: 'test2', arg3: 'test3' });
+// console.log(result); // { arg1: 'test1', arg2: 'test2', arg3: 'test3' }
 
-function execute(param) {
-  if (param === undefined) {
-      return 'パラメータがありません';
-  } else {
-      return `パラメータは ${param} です`;
-  }
-}
+// function execute(param) {
+//   if (param === undefined) {
+//       return 'パラメータがありません';
+//   } else {
+//       return `パラメータは ${param} です`;
+//   }
+// }
 
-const result1 = execute();
-console.log(result1); // パラメータがありません
+// const result1 = execute();
+// console.log(result1); // パラメータがありません
 
-const result2 = execute('犬');
-console.log(result2); // パラメータは犬です
+// const result2 = execute('犬');
+// console.log(result2); // パラメータは犬です
 
 //ここではパラメータがありませんが出力
 
