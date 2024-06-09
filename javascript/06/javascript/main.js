@@ -81,9 +81,9 @@ const result = execute({
 });
 console.log(result);
 
-{arg1: '矢', arg2: '増'}
-arg1:"矢"
-arg2:"増"
+// {arg1: '矢', arg2: '増'}
+// arg1:"矢"
+// arg2:"増"
 
 //可変長引数
 function execute({ ...args }) {
