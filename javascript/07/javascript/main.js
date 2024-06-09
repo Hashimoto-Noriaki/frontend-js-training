@@ -32,26 +32,4 @@
 // }
 //千葉または100以上
 
-// const age = 27;
-// const nation = 'イギリス';
 
-// if (age >= 30 && nation === '日本') {
-//   console.log('30以上の日本人');
-// } else if (age <= 30 && nation === '日本') {
-//   console.log('30以下または日本人');
-// } else {
-//   console.log('外国人');
-// }
-//外国人
-
-// const age = 27;
-// const nation = '日本';
-
-// if (age >= 30 && nation === '日本') {
-//   console.log('30以上の日本人');
-// } else if (age <= 30 && nation === '日本') {
-//   console.log('30以下または日本人');
-// } else {
-//   console.log('外国人');
-// }
-//30以下または日本人
