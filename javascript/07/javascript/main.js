@@ -54,3 +54,23 @@ console.log(result);
 
 //地球人
 //ええやん
+
+const favoriteSports = '野球';
+
+switch (favoriteSports) {
+  case '野球':
+    console.log('ホームラン');
+    break;
+  case 'サッカー':
+    console.log('シュート');
+    break;
+  case 'バスケ':
+    console.log('ダンク');
+    break;
+  case 'バレー':
+    console.log('スパイク');
+    break;
+  default:
+    console.log('他のスポーツがイイ');
+}
+//ホームラン
