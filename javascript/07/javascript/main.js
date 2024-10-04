@@ -74,3 +74,18 @@ switch (favoriteSports) {
     console.log('他のスポーツがイイ');
 }
 //ホームラン
+
+const favorite_sports = '野球';
+
+if (favorite_sports === '野球') {
+  console.log('野球');
+} else if (favorite_sports === 'サッカー') {
+  console.log('サッカー');
+} else if (favorite_sports === 'バスケ') {
+  console.log('バスケ');
+} else if (favorite_sports === 'バレー') {
+  console.log('バレー');
+} else {
+  console.log('スポーツ嫌い');
+}
+//野球
