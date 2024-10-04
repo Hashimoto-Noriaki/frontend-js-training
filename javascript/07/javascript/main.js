@@ -89,3 +89,15 @@ if (favorite_sports === '野球') {
   console.log('スポーツ嫌い');
 }
 //野球
+
+var text =
+  '名前:Hashimoto Noriaki\n 電話:0290-69-1259\n 住所:埼玉県さいたま市XX345';
+console.log(text.match(/\d\d\d\d-\d\d-\d\d\d\d/g));
+//0290-69-125
+var note =
+  '名前:Hashimoto Noriaki\n 電話:090-1655-7197\n 住所:埼玉県さいたま市XX345';
+console.log(note.match(/\d\d\d-\d\d\d\d-\d\d\d\d/g));
+//090-1655-7197
+
+// var text = "名前：佐藤直樹\n電話：03-1234-5678\n住所：兵庫県西脇市町1-2-3";
+// text.match(/\d\d-\d\d\d\d-\d\d\d\d/g);
