@@ -101,3 +101,29 @@ console.log(note.match(/\d\d\d-\d\d\d\d-\d\d\d\d/g));
 
 // var text = "名前：佐藤直樹\n電話：03-1234-5678\n住所：兵庫県西脇市町1-2-3";
 // text.match(/\d\d-\d\d\d\d-\d\d\d\d/g);
+
+
+
+// const count = 30; //　変数
+
+// // // 整形前
+// if (0) {
+//   console.log('０です');
+// } else if (count < 10) console.log('1０より下です');
+// else if (count <= 30) console.log('11以上です');
+// else {
+//   console.log('31以上です');
+// }
+//11以上です
+
+// 整形後
+// if (0) {
+//   console.log('０です');
+// } else if (count < 10) {
+//   console.log('1０より下です');
+// } else if (count === 30) {
+//   console.log('30ちょうどです');
+// } else {
+//   console.log('31以上です');
+// }
+//30ちょうどです
